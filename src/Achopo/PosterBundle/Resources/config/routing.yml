@@ -1,0 +1,13 @@
+achopo_poster_homepage:
+    path:     /
+    defaults: { _controller: AchopoPosterBundle:Default:index }
+achopo_poster_about:
+    path:     /about
+    defaults: { _controller: AchopoPosterBundle:Default:about }
+achopo_poster_locations:
+    path:     /locations
+    defaults: { _controller: AchopoPosterBundle:Default:locations }
+achopo_poster_services:
+    path:     /services
+    defaults: { _controller: AchopoPosterBundle:Default:services }
+

@@ -1,0 +1,123 @@
+{% extends 'AchopoPosterBundle::layout.html.twig' %}
+
+{% block title %}Source and Goods .Ltd{% endblock %}
+
+{% block content %}
+   <!-- Intro Section -->
+{#    <div class="real-link"></div>#}
+    <section  id="intro" class="intro-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1></h1>
+                    <ul class="rslides">
+                        <li><img src="{{ asset('images/6.jpg') }}" alt=""></li>
+                    </ul>
+                    <div id="c-nav"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+                    
+     <!-- Example row of columns -->
+      <div class="row">
+        <div class="col-lg-3">
+          <h2>About us</h2>
+          <p>We are a global information and technology company with headquaters in Hong Kong. Our focus is creating an ever-growing global network of trust with the goal of providing our clients reliable information and services. </p>
+          <p><a class="btn btn-primary" href="{{ path('achopo_poster_about') }}" role="button">View details &raquo;</a></p>
+        </div>
+        <div class="col-lg-3">
+          <h2>What we do</h2>
+          <p>We collect and verify information relevant to our clients using our global network. By maintaining a database of most highly sought data, we are an efficient destination for your information needs.  </p>
+          <p><a class="btn btn-primary" href="{{ path('achopo_poster_services') }}" role="button">View details &raquo;</a></p>
+       </div>
+        <div class="col-lg-3">
+          <h2>Our global presence</h2>
+          <p>The <a class="{% if app.request.attributes.get('_route') == 'achopo_poster_locations' %}active-page{% endif %}" href="{{ path('achopo_poster_locations') }}">locations</a> section of this website provides detailed information about where we are represented and the possibilities for your query.</p>
+          <p><a class="btn btn-primary" href="{{ path('achopo_poster_locations') }}" role="button">View details &raquo;</a></p>
+        </div>
+        <div class="col-lg-3">
+          <h2>News</h2>
+          <p><a class="btn btn-primary" href="{{ path('achopo_poster_locations') }}" role="button">Blog page &raquo;</a></p>
+        </div>
+      </div>
+
+   {# <!-- About Section -->
+    <div class="real-link" id="about"></div>
+    <section class="about-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1>About</h1>
+                </div>
+                <div class="col-lg-6 align-left">
+                    <h5>Location</h5>
+                    <p>We are located in Hong Kong - the freest economy in the world and a very diverse community. Through research and maintaining a 
+                        continuously growing database of verified information world wide, we provide reliable information about various geographic locations
+                         and foreign establishments by utilizing the nearest contacts in the region.
+                    </p>
+                </div>
+                <div class="col-lg-6 align-left">
+                    <h5>Mission</h5>
+                    <p> Our mission is to create reliable contacts allover the world. 
+                    </p>
+                    <h5>Team</h5>
+                    <p> Our team includes professionals in business and engineering. We have ties with several other companies in different parts
+                         of the world through whom we share updated information and provide regional support.
+                    </p>
+                </div>
+                <div class="col-lg-6"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <div class="real-link" id="services"></div>
+    <section class="services-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1>Services</h1>
+                </div>
+                <div class="col-lg-6 align-left">
+                    <h5>Information</h5>
+                    We handle correspondence between your company and potential clients. In most circumstances we will have a match in our database
+                     for your requirements, otherwise we will initiate proceedings to establish new connections.
+                    <h5>Transactions</h5>
+                    Are you planning a transaction with no intention of traveling? We can represent you. With various links around the world, we 
+                    can complete the deal on your behalf and pass the details on.
+                </div>
+                <div class="col-lg-6 align-left">
+                    <h5>Emerging markets</h5>
+                    We focus on utilizing ties in emerging markets to collect reliable information. Our main focus in this area is raw materials such as timber from
+                     several African countries.
+                    <h5>Freight</h5>
+                    We offer our cutomers advice on different freight transport options and can act as your agent for overseeing transport to your 
+                    destination port.
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <div class="real-link" id="contact"></div>
+    <section class="contact-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1>Contact</h1>
+                </div>
+                <div class="col-lg-12">
+                    <address>Room A, 2/F 25 Catchick Street<br>
+                        Kennedy Town<br>
+                        Hong Kong SAR<br><br>
+                        Tel: +852 532 50 777 <br><br>
+                        Requests: requests@sourceandgoods.hk
+                    </address>
+                </div>
+            </div>
+        </div>
+    </section>#}
+{% endblock %}
+

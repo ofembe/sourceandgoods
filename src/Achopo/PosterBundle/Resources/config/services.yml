@@ -1,0 +1,8 @@
+parameters:
+#    achopo_poster.example.class: Achopo\PosterBundle\Example
+
+services:
+    achopo_user.registration.form.type:
+        class: Achopo\PosterBundle\Form\Type\RegistrationFormType
+        tags:
+            - { name: form.type, alias: achopo_user_registration }
