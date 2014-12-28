@@ -1,0 +1,49 @@
+[03-Dec-2014 14:53:06 UTC] PHP Fatal error:  Uncaught exception 'UnexpectedValueException' with message 'The stream or file "B:/wamp/www/posters/app/logs/prod.log" could not be opened: failed to open stream: No such file or directory' in /home/ofembe/sourceandgoods.com/app/cache/prod/classes.php:466
+Stack trace:
+#0 /home/ofembe/sourceandgoods.com/app/cache/prod/classes.php(293): Monolog\Handler\StreamHandler->write(Array)
+#1 /home/ofembe/sourceandgoods.com/app/cache/prod/classes.php(218): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#2 /home/ofembe/sourceandgoods.com/app/cache/prod/classes.php(366): Monolog\Handler\AbstractHandler->handleBatch(Array)
+#3 /home/ofembe/sourceandgoods.com/app/cache/prod/classes.php(693): Monolog\Handler\FingersCrossedHandler->handle(Array)
+#4 /home/ofembe/sourceandgoods.com/app/cache/prod/classes.php(800): Monolog\Logger->addRecord(500, 'Uncaught PHP Ex...', Array)
+#5 /home/ofembe/sourceandgoods.com/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/EventListener/ExceptionListener.php(104): Monolog\Logger-> in /home/ofembe/sourceandgoods.com/app/cache/prod/classes.php on line 466
+[03-Dec-2014 15:03:17 UTC] PHP Fatal error:  Uncaught exception 'UnexpectedValueException' with message 'The stream or file "B:/wamp/www/posters/app/logs/prod.log" could not be opened: failed to open stream: No such file or directory' in /home/ofembe/sourceandgoods.com/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:84
+Stack trace:
+#0 /home/ofembe/sourceandgoods.com/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write(Array)
+#1 /home/ofembe/sourceandgoods.com/vendor/monolog/monolog/src/Monolog/Handler/AbstractHandler.php(58): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#2 /home/ofembe/sourceandgoods.com/vendor/monolog/monolog/src/Monolog/Handler/FingersCrossedHandler.php(104): Monolog\Handler\AbstractHandler->handleBatch(Array)
+#3 /home/ofembe/sourceandgoods.com/vendor/monolog/monolog/src/Monolog/Logger.php(263): Monolog\Handler\FingersCrossedHandler->handle(Array)
+#4 /home/ofembe/sourceandgoods.com/vendor/monolog/monolog/src/Monolog/Logger.php(569): Monolog\Logger-> in /home/ofembe/sourceandgoods.com/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php on line 84
+[03-Dec-2014 15:07:55 UTC] PHP Fatal error:  Uncaught exception 'UnexpectedValueException' with message 'The stream or file "B:/wamp/www/posters/app/logs/prod.log" could not be opened: failed to open stream: No such file or directory' in /home/ofembe/sourceandgoods.com/app/cache/prod/classes.php:466
+Stack trace:
+#0 /home/ofembe/sourceandgoods.com/app/cache/prod/classes.php(293): Monolog\Handler\StreamHandler->write(Array)
+#1 /home/ofembe/sourceandgoods.com/app/cache/prod/classes.php(218): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#2 /home/ofembe/sourceandgoods.com/app/cache/prod/classes.php(366): Monolog\Handler\AbstractHandler->handleBatch(Array)
+#3 /home/ofembe/sourceandgoods.com/app/cache/prod/classes.php(693): Monolog\Handler\FingersCrossedHandler->handle(Array)
+#4 /home/ofembe/sourceandgoods.com/app/cache/prod/classes.php(800): Monolog\Logger->addRecord(500, 'Uncaught PHP Ex...', Array)
+#5 /home/ofembe/sourceandgoods.com/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/EventListener/ExceptionListener.php(104): Monolog\Logger-> in /home/ofembe/sourceandgoods.com/app/cache/prod/classes.php on line 466
+[03-Dec-2014 15:13:26 UTC] PHP Fatal error:  Uncaught exception 'UnexpectedValueException' with message 'The stream or file "B:/wamp/www/posters/app/logs/prod.log" could not be opened: failed to open stream: No such file or directory' in /home/ofembe/sourceandgoods.com/app/cache/prod/classes.php:466
+Stack trace:
+#0 /home/ofembe/sourceandgoods.com/app/cache/prod/classes.php(293): Monolog\Handler\StreamHandler->write(Array)
+#1 /home/ofembe/sourceandgoods.com/app/cache/prod/classes.php(218): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#2 /home/ofembe/sourceandgoods.com/app/cache/prod/classes.php(366): Monolog\Handler\AbstractHandler->handleBatch(Array)
+#3 /home/ofembe/sourceandgoods.com/app/cache/prod/classes.php(693): Monolog\Handler\FingersCrossedHandler->handle(Array)
+#4 /home/ofembe/sourceandgoods.com/app/cache/prod/classes.php(800): Monolog\Logger->addRecord(500, 'Uncaught PHP Ex...', Array)
+#5 /home/ofembe/sourceandgoods.com/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/EventListener/ExceptionListener.php(104): Monolog\Logger-> in /home/ofembe/sourceandgoods.com/app/cache/prod/classes.php on line 466
+[03-Dec-2014 15:20:14 UTC] PHP Fatal error:  Uncaught exception 'UnexpectedValueException' with message 'The stream or file "B:/wamp/www/posters/app/logs/prod.log" could not be opened: failed to open stream: No such file or directory' in /home/ofembe/sourceandgoods.com/app/cache/prod/classes.php:466
+Stack trace:
+#0 /home/ofembe/sourceandgoods.com/app/cache/prod/classes.php(293): Monolog\Handler\StreamHandler->write(Array)
+#1 /home/ofembe/sourceandgoods.com/app/cache/prod/classes.php(218): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#2 /home/ofembe/sourceandgoods.com/app/cache/prod/classes.php(366): Monolog\Handler\AbstractHandler->handleBatch(Array)
+#3 /home/ofembe/sourceandgoods.com/app/cache/prod/classes.php(693): Monolog\Handler\FingersCrossedHandler->handle(Array)
+#4 /home/ofembe/sourceandgoods.com/app/cache/prod/classes.php(800): Monolog\Logger->addRecord(500, 'Uncaught PHP Ex...', Array)
+#5 /home/ofembe/sourceandgoods.com/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/EventListener/ExceptionListener.php(104): Monolog\Logger-> in /home/ofembe/sourceandgoods.com/app/cache/prod/classes.php on line 466
+[13-Dec-2014 04:33:35 UTC] PHP Fatal error:  Uncaught exception 'Symfony\Component\DependencyInjection\Exception\InvalidArgumentException' with message 'There is no extension able to load the configuration for "web_profiler" (in /home/ofembe/sourceandgoods.com/app/config/config_prod.yml). Looked for namespace "web_profiler", found "framework", "security", "twig", "monolog", "swiftmailer", "assetic", "doctrine", "sensio_framework_extra", "fos_user", "achopo_poster"' in /home/ofembe/sourceandgoods.com/vendor/symfony/symfony/src/Symfony/Component/DependencyInjection/Loader/YamlFileLoader.php:322
+Stack trace:
+#0 /home/ofembe/sourceandgoods.com/vendor/symfony/symfony/src/Symfony/Component/DependencyInjection/Loader/YamlFileLoader.php(292): Symfony\Component\DependencyInjection\Loader\YamlFileLoader->validate(Array, '/home/ofembe/so...')
+#1 /home/ofembe/sourceandgoods.com/vendor/symfony/symfony/src/Symfony/Component/DependencyInjection/Loader/YamlFileLoader.php(44): Symfony\Component\DependencyInjection\Loader\YamlFileLoader->loadFile('/home/ofembe/so...')
+#2 in /home/ofembe/sourceandgoods.com/vendor/symfony/symfony/src/Symfony/Component/DependencyInjection/Loader/YamlFileLoader.php on line 322
+[13-Dec-2014 04:36:46 UTC] PHP Fatal error:  Uncaught exception 'Symfony\Component\DependencyInjection\Exception\InvalidArgumentException' with message 'There is no extension able to load the configuration for "web_profiler" (in /home/ofembe/sourceandgoods.com/app/config/config_prod.yml). Looked for namespace "web_profiler", found "framework", "security", "twig", "monolog", "swiftmailer", "assetic", "doctrine", "sensio_framework_extra", "fos_user", "achopo_poster"' in /home/ofembe/sourceandgoods.com/vendor/symfony/symfony/src/Symfony/Component/DependencyInjection/Loader/YamlFileLoader.php:322
+Stack trace:
+#0 /home/ofembe/sourceandgoods.com/vendor/symfony/symfony/src/Symfony/Component/DependencyInjection/Loader/YamlFileLoader.php(292): Symfony\Component\DependencyInjection\Loader\YamlFileLoader->validate(Array, '/home/ofembe/so...')
+#1 /home/ofembe/sourceandgoods.com/vendor/symfony/symfony/src/Symfony/Component/DependencyInjection/Loader/YamlFileLoader.php(44): Symfony\Component\DependencyInjection\Loader\YamlFileLoader->loadFile('/home/ofembe/so...')
+#2 in /home/ofembe/sourceandgoods.com/vendor/symfony/symfony/src/Symfony/Component/DependencyInjection/Loader/YamlFileLoader.php on line 322
